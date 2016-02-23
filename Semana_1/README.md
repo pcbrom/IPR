@@ -1,1 +1,10 @@
-Repositório de materiais referente a semana 1
+#### Repositório de materiais referente a semana 1:
+
+* [(Site oficial do R)](https://www.r-project.org/)
+* [(Site oficial do RStudio)](https://www.rstudio.com/)
+* [(Site oficial do Shiny)](http://shiny.rstudio.com/gallery/)
+* [(Site oficial do Ploty)](http://moderndata.plot.ly/dashboards-in-r-with-shiny-plotly/)
+
+Abs.
+Pedro.
+
