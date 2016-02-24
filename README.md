@@ -20,4 +20,4 @@ Pastas:
   - Registros de informações.
 
 Turma de 2016.1:
-* Leoncio Regal Dutra [GitHub!](https://github.com/leoncioregal)
+* Leoncio Regal Dutra -> [Visite meu Git!](https://github.com/leoncioregal)
