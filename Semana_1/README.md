@@ -10,6 +10,7 @@ Repositório de materiais referente a semana 1<br>
 <br>
 
 * [Site oficial do R](https://www.r-project.org/)
+* [Lista de Pacotes do R](https://cran.r-project.org/web/packages/available_packages_by_name.html)
 * [Site oficial do RStudio](https://www.rstudio.com/)
 * [Site oficial do Shiny](http://shiny.rstudio.com/gallery/)
 * [Site oficial do Ploty](http://moderndata.plot.ly/dashboards-in-r-with-shiny-plotly/)
