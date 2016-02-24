@@ -179,7 +179,7 @@ Na linguagem R as decisões são tomadas através dos comandos **ifelse** e **if
     * Prof. Dr. Homero Luiz Piccolo;
 * Computação em Estatística 1 e 2, Universidade de Brasília.
     * Profa. Dra. Juliana Betini Fachini;
-    * Profa. Dr. Donald Matthew Pianto;
+    * Prof. Dr. Donald Matthew Pianto;
 * R Programming, Data Science Specialization, Johns Hopkins University.
     * Prof. PhD. Roger Peng;
     * Prof. PhD. Jeff Leek;
