@@ -1,5 +1,14 @@
-# Introdução à Programação com R (IPR)
-Repositorio do curso: Introdução à Programaçao com R - IFB
+<img align="left" img src="https://cloud.githubusercontent.com/assets/10408245/13283857/11cc6a94-dacf-11e5-9d00-e354256b155b.jpg" width="249px" height="147px" />
+
+<p align="center">
+###################################################################<br>
+INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE BRASÍLIA<br>
+INTRODUÇÃO À PROGRAMAÇÃO COM R<br>
+Repositorio do curso: Introdução à Programaçao com R<br>
+###################################################################
+</p>
+
+<br>
 
 Pastas:
 * Semana_1 [(material)](https://github.com/pcbrom/IPR/tree/master/Semana_1)
