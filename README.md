@@ -19,5 +19,5 @@ Pastas:
 * Semana_7 [(material)](https://github.com/pcbrom/IPR/tree/master/Semana_7)
   - Registros de informações.
 
-Turma:
+Turma de 2016.1:
 * Leoncio Regal Dutra
