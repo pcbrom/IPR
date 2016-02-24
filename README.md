@@ -20,3 +20,4 @@ Pastas:
   - Registros de informações.
 
 Pedro Brom
+Leoncio Regal Dutra
