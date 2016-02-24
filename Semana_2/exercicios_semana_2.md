@@ -45,4 +45,4 @@ calcule e mostre seu peso ideal, utilizando as seguintes fórmulas:
     * b) para mulheres: (62.1 * altura) - 44.7;<br><br>
 Para saber o sexo da pessoa peça que informe um caractere, identifique-a como do sexo masculino caso ‘M’ tenha sido digitado ou como do sexo feminino caso ‘F’ tenha sido digitado.
 
-* 09_ Um programa deve ler, via teclado, quatro valores inteiros e ao final mostrar o maior e o menor entre eles. Use no máximo 3 variáveis.
+* 09_ Um programa deve ler quatro valores inteiros e ao final mostrar o maior e o menor entre eles. Use no máximo 3 variáveis.
