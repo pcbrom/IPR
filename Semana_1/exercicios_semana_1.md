@@ -4,7 +4,7 @@
 ###################################################################<br>
 INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE BRASÍLIA<br>
 INTRODUÇÃO À PROGRAMAÇÃO COM R<br>
-SEMANA_1<br>
+LISTA DE EXERCÍCIOS SEMANA_1<br>
 ###################################################################
 </p>
 
