@@ -13,6 +13,7 @@ Repositório de materiais referente a semana 1<br>
 * [Site oficial do RStudio](https://www.rstudio.com/)
 * [Site oficial do Shiny](http://shiny.rstudio.com/gallery/)
 * [Site oficial do Ploty](http://moderndata.plot.ly/dashboards-in-r-with-shiny-plotly/)
+* [Exemplo de aplicativo desenvolvido em Shiny (Matricula: Matricula_1, Senha: 19-90)](https://supermetrica.shinyapps.io/gamapaaem/)
 * [LISTA DE EXERCÍCIOS](https://github.com/pcbrom/IPR/blob/master/Semana_1/exercicios_semana_1.md)
 
 Abs.
