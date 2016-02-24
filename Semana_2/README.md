@@ -10,8 +10,8 @@ Repositório de materiais referente a semana 2<br>
 
 <br>
 
-* [Material de leitura]()
-* [LISTA DE EXERCÍCIOS]()
+* [Material de leitura](https://github.com/pcbrom/IPR/blob/master/Semana_2/material_de_leitura.md)
+* [LISTA DE EXERCÍCIOS](https://github.com/pcbrom/IPR/blob/master/Semana_2/exercicios_semana_2.md)
 
 Abs.
 Pedro.
