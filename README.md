@@ -24,8 +24,8 @@ Pastas:
 * Semana_6 [(material)](https://github.com/pcbrom/IPR/tree/master/Semana_6)
   - Operações com vetores e matrizes;
 * Semana_7 [(material)](https://github.com/pcbrom/IPR/tree/master/Semana_7)
-  - Registros de informações.
-* Repositório de avaliações [(enviar avaliação)](https://github.com/pcbrom/IPR/blob/master/Avaliacoes/README.md)
+  - Registros de informações.<br><br>
+* **Repositório de avaliações** [(enviar avaliação)](https://github.com/pcbrom/IPR/blob/master/Avaliacoes/README.md)<br><br>
 
 
 Turma de 2016.1:
