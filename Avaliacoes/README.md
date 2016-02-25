@@ -4,15 +4,15 @@
 ###################################################################<br>
 INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE BRASÍLIA<br>
 INTRODUÇÃO À PROGRAMAÇÃO COM R<br>
-Repositório de materiais referente a semana 2<br>
+REPOSITÓRIO DAS AVALIAÇÕES<br>
 ###################################################################
 </p>
-
 <br>
 
-* [Material de leitura](https://github.com/pcbrom/IPR/blob/master/Semana_2/material_de_leitura.md)
-* [LISTA DE EXERCÍCIOS](https://github.com/pcbrom/IPR/blob/master/Semana_2/exercicios_semana_2.md)
+Caro cursista,
+este é o espaço para enviar a resolução de sua avaliação.
+
+O nome do arquivo deve ter a seguinte máscara: **avaliacao_[0-7]_[numero de matrícula/SIAPE].R**
 
 Abs.
 Pedro.
-
