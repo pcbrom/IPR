@@ -26,6 +26,7 @@ Pastas:
 * Semana_7 [(material)](https://github.com/pcbrom/IPR/tree/master/Semana_7)
   - Registros de informações.
 
+* Repositório de avaliações [(enviar)](https://github.com/pcbrom/IPR/blob/master/Avaliacoes/README.md)
 
 
 Turma de 2016.1:
