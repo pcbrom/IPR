@@ -8,7 +8,7 @@ Repositorio do curso: Introdução à Programaçao com R<br>
 ###################################################################
 </p>
 <br>
-Pastas:
+**Pastas:**
 * Semana_1 [(material)](https://github.com/pcbrom/IPR/tree/master/Semana_1)
   - Conceitos fundamentais da computação de dados;
   - Introdução ao GitHub;
@@ -28,5 +28,5 @@ Pastas:
 * **Repositório de avaliações** [(enviar avaliação)](https://github.com/pcbrom/IPR/blob/master/Avaliacoes/README.md)<br><br>
 
 
-Turma de 2016.1:
+**Turma de 2016.1:**
 * Leoncio Regal Dutra -> [Visite meu Git!](https://github.com/leoncioregal)
