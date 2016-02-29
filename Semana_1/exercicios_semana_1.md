@@ -13,10 +13,10 @@ LISTA DE EXERCÍCIOS SEMANA_1<br>
 
 * 02_ Faça um programa para calcular a média ponderada das notas de três provas. Os pesos são constantes iguais a 2.0, 2.5 e 3.0, para a primeira, segunda e terceira prova respectivamente. O usuário deve entrar com os valores das notas.
 
-* 03_ Faça um programa que leia o valor da população de um país e de sua taxa de crescimento (em porcentagem) por ano. O programa deve escrever o valor da população depois de 3 anos.
+* 03_ Faça um programa que entre com o valor da população de um país e de sua taxa de crescimento (em porcentagem) por ano. O programa deve escrever o valor da população depois de 3 anos.
 
 * 04_ Faça um programa que leia 5 números reais e calcule a média desses números, usando apenas duas variáveis.
 
-* 05_ Faça um programa para ler, via teclado, dois valores reais e imprimir a sua soma, seu produto, a subtração do primeiro menos o segundo, e a divisão do primeiro pelo segundo.
+* 05_ Faça um programa para ler dois valores reais e imprimir a sua soma, seu produto, a subtração do primeiro menos o segundo, e a divisão do primeiro pelo segundo.
 
 * 06_ Escreva um programa que leia o raio de uma circunferência e imprima o seu perímetro e a sua área. Todos os valores são reais.
