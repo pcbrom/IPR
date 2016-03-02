@@ -4,7 +4,7 @@
 ###################################################################<br>
 INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE BRASÍLIA<br>
 INTRODUÇÃO À PROGRAMAÇÃO COM R<br>
-MATERIAL DE LEITURA - SEMANA_2 - PARTE 1 DE 2<br>
+MATERIAL DE LEITURA - SEMANA_2 - PARTE 1 E 2<br>
 ###################################################################
 </p>
 
