@@ -10,7 +10,7 @@ MATERIAL DE LEITURA - SEMANA_2<br>
 
 <br>
 
-**Nota introdutória do curso:**
+**Nota introdutória do curso**
 
 É recomendado NÃO copiar e colar os comandos. Para ganhar fluência na linguagem de programação é necessário digitar para se acostumar com a sintaxe e ganhar boas práticas de codificação. Se já tiver um pouco de prática com outra linguagem, continue digitando para que sua escrita não tenha "sotaque".
 
