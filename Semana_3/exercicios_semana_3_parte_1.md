@@ -26,3 +26,5 @@ LISTA DE EXERCÍCIOS SEMANA_3 - PARTE 1 DE 2<br>
 * 05_ Leia um número inteiro n do teclado e imprima todos os números entre 0 e n. O programa deve funcionar para qualquer valor de n, inclusive valores negativos (fazendo com que a sequência impressa seja decrescente).
 
 * 06_ Faça um programa que calcule o fatorial de um número inserido pelo usuário, assuma que apenas números maiores ou iguais a zero serão inseridos. Lembrando que 0! = 1.
+
+* 07_ Como diferenciar o caso de uso de: **for**, **repeat** e **while**? Cite um exemplo para cada com o seu respectivo código.
