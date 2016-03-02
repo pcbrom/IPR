@@ -21,7 +21,7 @@ LISTA DE EXERCÍCIOS SEMANA_2<br>
   * c) bancos: R$ 10,00 a unidade, até 5 unidades; seis ou mais bancos: R$ 8,00 cada um.<br><br>
 Faça um programa que leia, três números inteiros a respeito de uma compra: a quantidade de cadeiras, a quantidade de mesas e a quantidade de bancos, nessa ordem. O programa deve escrever o valor total da compra.
 
-* 06_ Uma loja vende suas mercadorias apresentando o seguinte plano de pagamento:
+* 05_ Uma loja vende suas mercadorias apresentando o seguinte plano de pagamento:
   * entre os dias 26 e 31 do mês, acréscimo de 4%;
   * entre os dias 21 e 25 do mês, acréscimo de 2 %;
   * entre os dias 16 e 20 do mês, valor nominal;
@@ -30,7 +30,7 @@ Faça um programa que leia, três números inteiros a respeito de uma compra: a 
   * entre os dias 1 e 5 do mês, desconto de 6 %;<br><br>
 Faça um programa que leia dois valores: dia do pagamento (inteiro); valor nominal do pagamento (real). O programa deve escrever na tela um número real que indica o valor efetivamente pago, levando em conta o eventual acréscimo ou desconto.
 
-* 07_ Um comerciante trabalha com uma tabela de lucro que depende do valor de compra da
+* 06_ Um comerciante trabalha com uma tabela de lucro que depende do valor de compra da
 mercadoria, mostrada abaixo:
   * Valor de compra -> Lucro
   * Menor que R$ 10,00 -> 70%
@@ -39,10 +39,10 @@ mercadoria, mostrada abaixo:
   * Maior ou igual a R$ 100,00 -> 30%<br><br>
 Faça um programa que leia um número real correspondente ao valor de compra e que escreva na tela outro número real correspondente ao valor da venda.
 
-* 08_ Tendo como dados de entrada a altura e o sexo de uma pessoa, elabore um programa que
+* 07_ Tendo como dados de entrada a altura e o sexo de uma pessoa, elabore um programa que
 calcule e mostre seu peso ideal, utilizando as seguintes fórmulas:
     * a) para homens: (72.7 * altura) - 58;
     * b) para mulheres: (62.1 * altura) - 44.7;<br><br>
 Para saber o sexo da pessoa peça que informe um caractere, identifique-a como do sexo masculino caso ‘M’ tenha sido digitado ou como do sexo feminino caso ‘F’ tenha sido digitado.
 
-* 09_ Um programa deve ler quatro valores inteiros e ao final mostrar o maior e o menor entre eles. Use no máximo 3 variáveis.
+* 08_ Um programa deve ler quatro valores inteiros e ao final mostrar o maior e o menor entre eles. Use no máximo 3 variáveis.
