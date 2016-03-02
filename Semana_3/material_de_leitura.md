@@ -4,7 +4,7 @@
 ###################################################################<br>
 INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE BRASÍLIA<br>
 INTRODUÇÃO À PROGRAMAÇÃO COM R<br>
-MATERIAL DE LEITURA - SEMANA_2 - PARTE 1 E 2<br>
+MATERIAL DE LEITURA - SEMANA_3 - PARTE 1 E 2<br>
 ###################################################################
 </p>
 
@@ -18,7 +18,7 @@ Todas as linguagens de programação devem ter um mecanismo desse tipo. É muito
 
 O programador estabelece quais os trechos de programas que são repetidos, e quais as condições que balizam essas repetições.
 
-**1. Introdução**
+**Introdução**
 
 As estruturas de repetição permitem que um comando (simples ou composto) seja executado repetidamente, até que seja satisfeita uma determinada condição.
 
@@ -26,19 +26,26 @@ R possui algumas estruturas de loop que poder invocadas de duas formas:
   - Comandos (válida para praticamente todas as linguagens): for, repeat e while. (PARTE_1)
   - Funções (nativas do R): apply, lapply, mapply, tapply, split e aggregate. (PARTE_2)
 
-**(PARTE_1)**
+<br><br>**(PARTE_1)**
 
 **FOR**
 
 
+
 **REPEAT**
+
 **WHILE**
 
-**(PARTE_2)**
+<br><br>**(PARTE_2)**
+
 **APPLY**
+
 **MAPPLY**
+
 **TAPPLY**
+
 **SPLIT**
+
 **AGGREGATE**
 
 
@@ -50,11 +57,12 @@ R possui algumas estruturas de loop que poder invocadas de duas formas:
 
 **Conclusão**
 
-Neste tópico foram vistas as estruturas de tomadas de decisão, que existem em todas as linguagens de programação. 
+Neste tópico vimos as estruturas de repetição, que permitem que uma parte do programa seja executada várias vezes.
 
-Elas permitem que o programador estabeleça de antemão qual o caminho a ser seguido pelo programa, e em que condições isso ocorre.
+A escolha entre as estruturas ocorre em função do tipo de problema que está sendo resolvido, e também, em muitos casos, em função do estilo de programação do programador.
 
-Na linguagem R as decisões são tomadas através dos comandos **ifelse** e **if**.
+Na linguagem R o sistema de loop é tomado através dos comandos: **for**, **repeat**, **while**, **apply**, **lapply**, **mapply**, **tapply**, **split** e **aggregate**.
+
 
 
 
