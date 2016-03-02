@@ -45,8 +45,7 @@ Data   |   Nr. Aula   |   Conteúdo
 24/05/16	|23 e 24	|Avaliação 05 – Conteúdo: Aula do dia 10/05/16.
 31/05/16	|25 e 26	|Registros de informações.
 07/06/16	|27 e 28	|Avaliação 06 – Conteúdo: Aula do dia 31/05/16.
-21/06/16	|29 e 30	|Avaliação 07 – Trabalho final de curso.<br><br>
+21/06/16	|29 e 30	|Avaliação 07 – Trabalho final de curso.
 
-
-**Turma de 2016.1:**
+<br><br>**Turma de 2016.1:**
 * Leoncio Regal Dutra -> [Visite meu Git!](https://github.com/leoncioregal)
