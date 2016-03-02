@@ -28,4 +28,4 @@ LISTA DE EXERCÍCIOS SEMANA_3 - PARTE 2 DE 2<br>
 
 * 06_ Quando utilizamos a função **split** e a função **aggregate**? Cite um exemplo de cada um com o seu respectivo código.
 
-* 07_ Caso rode o comando **debug(ls)** o que ocorre na próxima vez que invocar a função **'ls'**?
+* 07_ Rode o comando **ls()**. O que ocorre? Caso rode o comando **debug(ls)** o que ocorre na próxima vez que invocar a função **ls()**?
