@@ -24,7 +24,7 @@ Uma estrutura de decisão é um mecanismo pelo qual um programa pode escolher um
 
 Dessa forma, dependendo dos valores assumidos por variáveis ou expressões no momento da execução do programa, o fluxo de comandos pode seguir por um caminho ou por outro. Tudo ocorre como se o computador estivesse tomando uma decisão. Na verdade as opções para a decisão já estão previstas pelo programador, que estabelece em que condições o programa deve seguir por este ou por aquele caminho.<br><br>
 
-**1. Introdução**
+**Introdução**
 
 As estruturas condicionais permitem que decisões sejam tomadas ao longo da execução do programa. 
 
