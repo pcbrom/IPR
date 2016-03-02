@@ -19,7 +19,7 @@ LISTA DE EXERCÍCIOS SEMANA_3 - PARTE 1 DE 2<br>
   - F_3 = 2
   - F_n = F_(n-1) + F_(n-2)
 
-Faça um programa que, dado um número n digitado pelo usuário, calcule o n-ésimo termo da sequência de Fibonacci.
+  Faça um programa que, dado um número n digitado pelo usuário, calcule o n-ésimo termo da sequência de Fibonacci.
 
 * 04_ Escreva um programa que peça ao usuário que digite uma sequência de números inteiros, processo que deve ser repetido até que 0 seja digitado. No final deverá ser mostrada a quantidade de números digitados (sem contar com o zero) e o maior deles.
 
