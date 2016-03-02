@@ -10,7 +10,7 @@ Repositório de materiais referente a semana 3<br>
 
 <br>
 
-* [Material de leitura - PARTE_1](https://github.com/pcbrom/IPR/blob/master/Semana_3/material_de_leitura.md)
+* [Material de leitura - PARTE_1_E_2](https://github.com/pcbrom/IPR/blob/master/Semana_3/material_de_leitura.md)
 * [LISTA DE EXERCÍCIOS - PARTE_1](https://github.com/pcbrom/IPR/blob/master/Semana_3/exercicios_semana_3_parte_1.md)
 * [LISTA DE EXERCÍCIOS - PARTE_2](https://github.com/pcbrom/IPR/blob/master/Semana_3/exercicios_semana_3_parte_2.md)
 
