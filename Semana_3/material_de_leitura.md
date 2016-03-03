@@ -30,9 +30,66 @@ R possui algumas estruturas de loop que poder invocadas de duas formas:
 
 **FOR**
 
+O comando **for(...)** é praticado quando sabemos a quantidade de ocorrências até o final do loop. Suponhamos a seguite rotina:
 
+> for(i in 1:10) {<br>
+>    print(i)<br>
+>  }<br>
+>[1] 1<br>
+>[1] 2<br>
+>[1] 3<br>
+>[1] 4<br>
+>[1] 5<br>
+>[1] 6<br>
+>[1] 7<br>
+>[1] 8<br>
+>[1] 9<br>
+>[1] 10
+
+Aqui estamos pedindo para imprimir na tela cada **i** dentro da contagem indicada. A leitura do código fica do seguinte modo: **for** indica para entrar em um procedimento onde identificamos o elemento **i** dentro da sequência **1:10** (1, 2, 3, 4, 5, 6, 7, 8, 9, 10). Daí abrimos o comando desejado **{...}** que é imprimir na tela o valor de **i**, com **print(i)**
+
+Agora ao invés de utilizar **print(i)** coloque apenas **i** dentro das chaves. (O que ocorre?)
+
+Novo exemplo:
+
+> for(i in c(2, 4, 6, 7)) {<br>
+>   op.1 = i^3<br>
+>   print(op.1)<br>
+> }<br>
+>[1] 8<br>
+>[1] 64<br>
+>[1] 216<br>
+>[1] 343
+
+A leitura segue a mesma linha de pensamento, mas o **i** percorre os valores do vetor **c(2, 4, 6, 7)**, efetua a operação **op.1** e imprime na tela o seu valor **print(op.1)**.
+
+O comando **for** também aceita contrução de loop por níveis, por exemplo a leitura dos elementos de uma matrix.
+
+> x = matrix(1:6, nrow = 2, ncol = 3)<br>
+> x<br>
+>     [,1] [,2] [,3]<br>
+>[1,]    1    3    5<br>
+>[2,]    2    4    6<br>
+><br>
+> for(i in seq_len(nrow(x))) {<br>
+>   for(j in seq_len(ncol(x))) {<br>
+>     print(x[i, j])<br>
+>   }<br>
+> }<br>
+>[1] 1<br>
+>[1] 3<br>
+>[1] 5<br>
+>[1] 2<br>
+>[1] 4<br>
+>[1] 6
+
+Na primeira camada o **i** pega a primeira linha e vai para a segunda camada, **j**, fazendo a leitura dos elementos da matriz, ao terminar a última coluna, vai para a segunda linha e retorna na tela a mesma execução efetuada anteriormente.
+
+Cuidado ao adicionar níveis, pois são camadas n-dimensionais que estão sendo criadas, ou seja, chega um ponto que criar um escopo para as operações fica cada vez mais complexo.
 
 **REPEAT**
+
+
 
 **WHILE**
 
