@@ -99,21 +99,21 @@ Caso seja necessário pular algumas iterações podemos aplicar o comando **next
 O comando **next** também é útil quando ocorre algum tipo de erro durante o loop. Em condições normais o loop é interrompido se durante alguma operação ocorrer algum erro. Com o comando **next** podemos definir uma condição que em caso de erro, compute o próximo a fim de completar o loop. Para este caso em específico usamos **try** e **next**. Exemplo:
 
 > vetor.1 = c(1:5, "a", 7:10) # RODAR ESTE SCRIPT LINHA POR LINHA<br>
-> mode(vetor.1)<br> # NOTE QUE SEU MODO É DE CARACTERE
+> mode(vetor.1) # NOTE QUE SEU MODO É DE CARACTERE<br>
 > <br>
-> for (i in seq_along(vetor.1)) {<br> # IRÁ PASSAR EM CADA POSIÇÃO DO vetor.1
+> for (i in seq_along(vetor.1)) { # IRÁ PASSAR EM CADA POSIÇÃO DO vetor.1<br>
 >   <br>
->   resp = try({<br> # ESTÁ CRIANDO UM OBJETO "resp" PARA TENTAR O COMANDO
+>   resp = try({ # ESTÁ CRIANDO UM OBJETO "resp" PARA TENTAR O COMANDO<br>
 >     <br>
->     obj.1 = as.numeric(vetor.1[i])<br> # ESTÁ FORÇANDO O VALOR DA POSIÇÃO i SER NUMÉRICO
->     obj.2 = obj.1^2<br> # COLETA O obj.1 E EFETUA A OPERAÇÃO
->     print(obj.2)<br> # IMPRIME NA TELA O RESULTADO
+>     obj.1 = as.numeric(vetor.1[i]) # ESTÁ FORÇANDO O VALOR DA POSIÇÃO i SER NUMÉRICO<br>
+>     obj.2 = obj.1^2 # COLETA O obj.1 E EFETUA A OPERAÇÃO<br>
+>     print(obj.2) # IMPRIME NA TELA O RESULTADO<br>
 >     <br>
 >   })<br>
 >   <br>
->   if(inherits(resp, "try-error")) {<br> # SE HOUVER ALGUM TIPO DE ERRO COM O OBJETO resp ENTÃO
+>   if(inherits(resp, "try-error")) { # SE HOUVER ALGUM TIPO DE ERRO COM O OBJETO resp ENTÃO<br>
 >     <br>
->     next<br> # VÁ PARA O PRÓXIMO TERMO DO LOOP
+>     next # VÁ PARA O PRÓXIMO TERMO DO LOOP<br>
 >     <br>
 >   }<br>
 >   <br>
