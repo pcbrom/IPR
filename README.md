@@ -31,21 +31,21 @@ Repositorio do curso: Introdução à Programaçao com R<br>
 
 Data   |   Nr. Aula   |   Conteúdo
 ---   |   ---   |   ---
-01/03/16	|1 e 2	|Apresentação do plano de curso, avaliações, GitHub, R, Rstudio, Shiny, Rselenium, História do R, Exercício de nivelamento.
-08/03/16	|3 e 4	|Comandos lógicos de decisão. Estruturas condicionadas. Comandos IF e IFELSE.
-15/03/16	|5 e 6	|Avaliação 01 – Conteúdo: Aula do dia 01/02/16.
-22/03/16	|7 e 8	|Comandos de repetição em linguagem de programação.
-05/04/16	|9 e 10	|Comandos de repetição em R.
-12/04/16	|11 e 12	|Avaliação 02 – Conteúdo: Aula do dia 08/02/16.
-19/04/16	|13 e 14	|Ponteiros e funções.
-26/04/16	|15 e 16	|Avaliação 03 – Conteúdo: Aulas dos dias 15 e 22/03/16.
-03/05/16	|17 e 18	|Sistema de arquivamento: Importação e exportação de dados. Leitura de Big Data.
-10/05/16	|19 e 20	|Avaliação 04 – Conteúdo: Aula do dia 03/05/16.
-17/05/16	|21 e 22	|Operações com vetores e matrizes.
-24/05/16	|23 e 24	|Avaliação 05 – Conteúdo: Aula do dia 10/05/16.
-31/05/16	|25 e 26	|Registros de informações.
-07/06/16	|27 e 28	|Avaliação 06 – Conteúdo: Aula do dia 31/05/16.
-21/06/16	|29 e 30	|Avaliação 07 – Trabalho final de curso.
+23/02/16	|1 e 2	|Apresentação do plano de curso, avaliações, GitHub, R, Rstudio, Shiny, Rselenium, História do R, Exercício de nivelamento.
+01/03/16	|3 e 4	|Comandos lógicos de decisão. Estruturas condicionadas. Comandos IF e IFELSE.
+08/03/16	|5 e 6	|Avaliação 01 – Conteúdo: Aula do dia 01/02/16.
+15/03/16	|7 e 8	|Comandos de repetição em linguagem de programação.
+22/03/16	|9 e 10	|Comandos de repetição em R.
+29/03/16	|11 e 12	|Avaliação 02 – Conteúdo: Aula do dia 08/02/16.
+05/04/16	|13 e 14	|Ponteiros e funções.
+12/04/16	|15 e 16	|Avaliação 03 – Conteúdo: Aulas dos dias 15 e 22/03/16.
+19/04/16	|17 e 18	|Sistema de arquivamento: Importação e exportação de dados. Leitura de Big Data.
+26/04/16	|19 e 20	|Avaliação 04 – Conteúdo: Aula do dia 03/05/16.
+03/05/16	|21 e 22	|Operações com vetores e matrizes.
+10/05/16	|23 e 24	|Avaliação 05 – Conteúdo: Aula do dia 10/05/16.
+17/05/16	|25 e 26	|Registros de informações.
+24/05/16	|27 e 28	|Avaliação 06 – Conteúdo: Aula do dia 31/05/16.
+07/06/16	|29 e 30	|Avaliação 07 – Trabalho final de curso.
 
 <br><br>**Turma de 2016.1:**
 * Leoncio Regal Dutra -> [Visite meu Git!](https://github.com/leoncioregal)
