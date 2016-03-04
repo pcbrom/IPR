@@ -87,6 +87,38 @@ Na primeira camada o **i** pega a primeira linha e vai para a segunda camada, **
 
 Cuidado ao adicionar níveis, pois são camadas n-dimensionais que estão sendo criadas, ou seja, chega um ponto que criar um escopo para as operações fica cada vez mais complexo.
 
+Caso seja necessário pular algumas iterações podemos aplicar o comando **next** dentro do loop. Por exeplo:
+
+> for(i in 1:100) {<br>
+> if(i <= 20) {<br>
+> next # AQUI IRÁ PULAR ATÉ A VIGÉSIMA ITERAÇÃO<br>
+> }<br>
+> (ALGUMA ROTINA)<br>
+> }
+
+O comando **next** também é útil quando ocorre algum tipo de erro durante o loop. Em condições normais o loop é interrompido se durante alguma operação ocorrer algum erro. Com o comando **next** podemos definir uma condição que em caso de erro, compute o próximo a fim de completar o loop. Para este caso em específico usamos **try** e **next**. Exemplo:
+
+> vetor.1 = c(1:5, "a", 7:10) # RODAR ESTE SCRIPT LINHA POR LINHA<br>
+> mode(vetor.1)<br> # NOTE QUE SEU MODO É DE CARACTERE
+> <br>
+> for (i in seq_along(vetor.1)) {<br> # IRÁ PASSAR EM CADA POSIÇÃO DO vetor.1
+>   <br>
+>   resp = try({<br> # ESTÁ CRIANDO UM OBJETO "resp" PARA TENTAR O COMANDO
+>     <br>
+>     obj.1 = as.numeric(vetor.1[i])<br> # ESTÁ FORÇANDO O VALOR DA POSIÇÃO i SER NUMÉRICO
+>     obj.2 = obj.1^2<br> # COLETA O obj.1 E EFETUA A OPERAÇÃO
+>     print(obj.2)<br> # IMPRIME NA TELA O RESULTADO
+>     <br>
+>   })<br>
+>   <br>
+>   if(inherits(resp, "try-error")) {<br> # SE HOUVER ALGUM TIPO DE ERRO COM O OBJETO resp ENTÃO
+>     <br>
+>     next<br> # VÁ PARA O PRÓXIMO TERMO DO LOOP
+>     <br>
+>   }<br>
+>   <br>
+> }
+
 **REPEAT/BREAK**
 
 **Repeat** inicia um loop "infinito". É comum o uso de loop "infito" em computação de dados. A única forma de parar o comando é invocando **break**. Para este tipo de procedimento não há garantias de que a computação de dados termine. Portanto não é recomendável usar este procedimento.
@@ -111,6 +143,8 @@ v    x0 = x1<br>
 > }
 
 **WHILE**
+
+
 
 <br><br>**(PARTE_2)**
 
