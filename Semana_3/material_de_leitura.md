@@ -144,7 +144,38 @@ v    x0 = x1<br>
 
 **WHILE**
 
+**While** precisa de uma condição para ser testada. Enquanto a condição não for verificada o loop continua, ou seja, se a condição estiver com redação ruim então corre o risco do loop não terminar. É indicado quando não sabemos a quantidade de iterações para atingir o resultado esperado.
 
+> count = 0 # DEFINA UM OBJETO count COM VALOR NUMÉRICO 0<br>
+> <br>
+> while(count < 10) { # ENQUANTO O OBJETO count FOR MENOR DO QUE 10<br>
+>   print(count) # IMPRIMA O SEU VALOR<br>
+>   count = count + 1 # ADICIONE +1 EM count<br>
+> }<br>
+>[1] 0<br>
+>[1] 1<br>
+>[1] 2<br>
+>[1] 3<br>
+>[1] 4<br>
+>[1] 5<br>
+>[1] 6<br>
+>[1] 7<br>
+>[1] 8<br>
+>[1] 9 # O VALOR IMPRESSO VAI ATÉ 9 POIS O LOOP SE LIMITA A CONDIÇÃO DE count < 10
+
+Mais um exemplo: Simulando uma rotina de passo aleatório. Rode o script e veja o que ocorre.
+
+> z = 5<br>
+> <br>
+> while(z >= 3 && z <= 10) { # CONDIÇÕES PARA FUNCIONAMENTO DO LOOP<br>
+>   print(z) # IMPRIMA O VALOR DE z<br>
+>   moeda = rbinom(1, 1, 0.5) # SIMULAÇÃO DO LANÇAMENTO DE UMA MOEDA EQUILIBRADA<br>
+>   if(moeda == 1) { # ROTINA DE PASSO ALEATÓRIO<br>
+>     z = z + 1 # CASO SEJA 1 ENTÃO ADICIONE +1 EM z<br>
+>   } else {<br>
+>     z = z - 1 # CASO CONTRÁRIO ENTÃO ADICIONE -1 EM z<br>
+>   }<br>
+> }
 
 <br><br>**(PARTE_2)**
 
