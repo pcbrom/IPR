@@ -163,7 +163,7 @@ v    x0 = x1<br>
 >[1] 8<br>
 >[1] 9 # O VALOR IMPRESSO VAI ATÉ 9 POIS O LOOP SE LIMITA A CONDIÇÃO DE count < 10
 
-Mais um exemplo: Simulando uma rotina de passo aleatório. Rode o script e veja o que ocorre.
+Mais um exemplo: Simulando uma rotina de passo aleatório. Rode o script algumas vezes e veja o que ocorre.
 
 > z = 5<br>
 > <br>
