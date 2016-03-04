@@ -87,9 +87,28 @@ Na primeira camada o **i** pega a primeira linha e vai para a segunda camada, **
 
 Cuidado ao adicionar níveis, pois são camadas n-dimensionais que estão sendo criadas, ou seja, chega um ponto que criar um escopo para as operações fica cada vez mais complexo.
 
-**REPEAT**
+**REPEAT/BREAK**
 
+**Repeat** inicia um loop "infinito". É comum o uso de loop "infito" em computação de dados. A única forma de parar o comando é invocando **break**. Para este tipo de procedimento não há garantias de que a computação de dados termine. Portanto não é recomendável usar este procedimento.
 
+> x0 = 1<br>
+> tol = 1e-8<br>
+> <br>
+> repeat {<br>
+>   <br>
+>   x1 = computeEstimate() # NAO INCLUSO NA INSTALACAO DEFAULT DO R<br>
+>   <br>
+>   if(abs(x1 - x0) < tol) {<br>
+>     <br>
+>     break<br>
+>   <br>
+>     } else {<br>
+>       <br>
+v    x0 = x1<br>
+>     <br>
+>     }<br>
+>   <br>
+> }
 
 **WHILE**
 
