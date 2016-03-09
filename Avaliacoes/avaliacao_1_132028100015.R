@@ -44,13 +44,13 @@
 # ======================================================================
 
 # A RESOLUÇÃO DEVE SER FEITA ABAIXO DA LINHA 47.
-u=5
-d=6
-a=2
-v=(round(sqrt((u^2)+2*a*d),2))
-resp=v-u
+u=5 # (01 ponto - problema: deveria ser letra maiúscula)
+d=6 # (01 ponto - problema: deveria ser letra maiúscula)
+a=2 # (01 ponto - problema: fora da ordem solicitada)
+v=(round(sqrt((u^2)+2*a*d),2)) # (02 pontos - arredondamento ok, mas deveria ser feito apenas no final)
+resp=v-u # (02 pontos)
 print(resp)
 
 # ======================================================================
 
-
+# Nota final: 07 pontos.
