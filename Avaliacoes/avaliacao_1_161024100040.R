@@ -48,10 +48,12 @@
 # ======================================================================
 
 
-u=5
-a=2
-d=6
+u=5 # (01 ponto - problema: foi solicitado uso de letra maiúscula)
+a=2 # (02 pontos)
+d=6 # (01 ponto - problema: foi solicitado uso de letra maiúscula)
 
 r= round(sqrt(u),2)+2*a*d
-v= round(sqrt(r),2)
+v= round(sqrt(r),2) # (02 pontos - arredondamento está ok, mas para a conta errada)
 resp=v-u
+
+# Nota final: 06 pontos.
