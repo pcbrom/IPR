@@ -87,7 +87,7 @@ Na primeira camada o **i** pega a primeira linha e vai para a segunda camada, **
 
 Cuidado ao adicionar níveis, pois são camadas n-dimensionais que estão sendo criadas, ou seja, chega um ponto que criar um escopo para as operações fica cada vez mais complexo.
 
-Caso seja necessário pular algumas iterações podemos aplicar o comando **next** dentro do loop. Por exeplo:
+Caso seja necessário pular algumas iterações podemos aplicar o comando **next** dentro do loop. Por exemplo:
 
 > for(i in 1:100) {<br>
 > if(i <= 20) {<br>
