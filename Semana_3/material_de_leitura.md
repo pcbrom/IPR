@@ -136,7 +136,7 @@ O comando **next** também é útil quando ocorre algum tipo de erro durante o l
 >   <br>
 >     } else {<br>
 >       <br>
-v    x0 = x1<br>
+>    x0 = x1<br>
 >     <br>
 >     }<br>
 >   <br>
