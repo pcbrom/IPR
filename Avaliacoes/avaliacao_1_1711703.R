@@ -49,12 +49,12 @@
 
 # V^2 = U^2 + 2 * a * D, 
 
-U=5
-a=2
-D=6
+U=5 # (02 pontos)
+a=2 # (02 pontos)
+D=6 # (02 pontos)
 
-V=round(sqrt(U^2+2*a*D),2)
-resp=V-U
+V=round(sqrt(U^2+2*a*D),2) # (02 pontos, arredondamento ok, mas deveria ter sido praticado somente com o resultado final)
+resp=V-U # (02 pontos)
 print(resp)
 
-
+# Nota final: 10 pontos.
