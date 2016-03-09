@@ -46,20 +46,20 @@
 # A RESOLUÇÃO DEVE SER FEITA ABAIXO DA LINHA 47.
 
 # ======================================================================
-u=5
-a=2
-D=6
+u=5 # (02 pontos)
+a=2 # (02 pontos)
+D=6 # (02 pontos)
 z=((u^2)+2*a*D)
 operacao.1
 print(z)
-v=round(sqrt(z),2)
+v=round(sqrt(z),2) # (02 pontos - arredondamento ok, mas deveria ser feito no final)
 operacao.2
 print(v)
-resp=v-u
+resp=v-u # (02 pontos)
 operacao.3
 print(resp)
 
-
+# Nota final: 10 pontos.
 
     
 
