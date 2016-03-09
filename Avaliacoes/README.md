@@ -16,3 +16,14 @@ O nome do arquivo deve ter a seguinte máscara: **avaliacao_[0-7]_[numero de mat
 
 Abs.
 Pedro.
+
+.....................................................................
+
+!!! ATENÇÃO (09/03/16) !!!
+
+Caros cursistas,
+os que não tiveram o upload de sua avaliação neste repositório devem me procurar fora do horário de aula do nosso curso a fim de resolver este problema. Para não haver prejuízo de pontuação, a nota referente a avaliação 01 será repassada para as outras avaliações.
+
+.....................................................................
+
+[DOWNLOAD DAS NOTAS E RESULTADO PARCIAL](https://docs.google.com/a/etfbsb.edu.br/spreadsheets/d/1Uf7MHZ5PODfRrhbJsL_kwRgm2TWMv570uGeR7PGyILk/edit?usp=sharing)
