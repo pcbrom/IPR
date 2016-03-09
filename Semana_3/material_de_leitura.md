@@ -63,7 +63,7 @@ Novo exemplo:
 
 A leitura segue a mesma linha de pensamento, mas o **i** percorre os valores do vetor **c(2, 4, 6, 7)**, efetua a operação **op.1** e imprime na tela o seu valor **print(op.1)**.
 
-O comando **for** também aceita contrução de loop por níveis, por exemplo a leitura dos elementos de uma matrix.
+O comando **for** também aceita contrução de loop por níveis, por exemplo a leitura dos elementos de uma matriz.
 
 > x = matrix(1:6, nrow = 2, ncol = 3)<br>
 > x<br>
@@ -98,7 +98,7 @@ Caso seja necessário pular algumas iterações podemos aplicar o comando **next
 
 O comando **next** também é útil quando ocorre algum tipo de erro durante o loop. Em condições normais o loop é interrompido se durante alguma operação ocorrer algum erro. Com o comando **next** podemos definir uma condição que em caso de erro, compute o próximo a fim de completar o loop. Para este caso em específico usamos **try** e **next**. Exemplo:
 
-> vetor.1 = c(1:5, "a", 7:10) # RODAR ESTE SCRIPT LINHA POR LINHA<br>
+> vetor.1 = c(1:5, "a", 7:10) # RODAR ESTE SCRIPT LINHA POR LINHA (segurar Ctrl + ir pressionando Enter)<br>
 > mode(vetor.1) # NOTE QUE SEU MODO É DE CARACTERE<br>
 > <br>
 > for (i in seq_along(vetor.1)) { # IRÁ PASSAR EM CADA POSIÇÃO DO vetor.1<br>
@@ -163,7 +163,9 @@ v    x0 = x1<br>
 >[1] 8<br>
 >[1] 9 # O VALOR IMPRESSO VAI ATÉ 9 POIS O LOOP SE LIMITA A CONDIÇÃO DE count < 10
 
-Mais um exemplo: Simulando uma rotina de passo aleatório. Rode o script algumas vezes e veja o que ocorre.
+Agora refaça o exemplo anterior trocando a ordem das linhas de comando print e count. (O que o corre?)
+
+Mais um exemplo: Simulando uma rotina de passo aleatório. Rode o script algumas vezes e veja os resultados.
 
 > z = 5<br>
 > <br>
