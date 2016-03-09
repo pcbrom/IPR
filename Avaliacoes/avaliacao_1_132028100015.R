@@ -54,3 +54,4 @@ print(resp)
 # ======================================================================
 
 # Nota final: 07 pontos.
+# Aluno não cadastrado no sistema. Procurar o professor.
