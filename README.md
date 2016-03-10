@@ -50,5 +50,5 @@ Data   |   Nr. Aula   |   Conteúdo
 <br><br>**Turma de 2016.1:**
 * Gabriel Castelo Branco -> [Visite meu Git!](https://github.com/gcbranco)
 * Leoncio Regal Dutra -> [Visite meu Git!](https://github.com/leoncioregal)
-* Luiz Fernando Câmara Viana -> [Visite meu Git!](https://github.com/lfcviana)
+* Luiz Fernando Viana -> [Visite meu Git!](https://github.com/lfcviana)
 * Milton Juliano da Silva Júnior -> [Visite meu Git!] (https://github.com/miltonjuliano)
