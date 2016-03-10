@@ -50,3 +50,4 @@ Data   |   Nr. Aula   |   Conteúdo
 <br><br>**Turma de 2016.1:**
 * Leoncio Regal Dutra -> [Visite meu Git!](https://github.com/leoncioregal)
 *  Gabriel Castelo Branco -> [Visite meu Git!](https://github.com/gcbranco)
+*  Milton Juliano da Silva Júnior -> [Visite meu Git!] (https://github.com/miltonjuliano)
