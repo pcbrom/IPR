@@ -48,6 +48,7 @@ Data   |   Nr. Aula   |   Conteúdo
 07/06/16	|29 e 30	|Avaliação 07 – Entrega do trabalho final de curso.
 
 <br><br>**Turma de 2016.1:**
-* Leoncio Regal Dutra -> [Visite meu Git!](https://github.com/leoncioregal)
 * Gabriel Castelo Branco -> [Visite meu Git!](https://github.com/gcbranco)
+* Leoncio Regal Dutra -> [Visite meu Git!](https://github.com/leoncioregal)
+* Luiz Fernando Câmara Viana -> [Visite meu Git!](https://github.com/lfcviana)
 * Milton Juliano da Silva Júnior -> [Visite meu Git!] (https://github.com/miltonjuliano)
