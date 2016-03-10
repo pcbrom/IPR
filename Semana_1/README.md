@@ -9,6 +9,7 @@ Repositório de materiais referente a semana 1<br>
 </p>
 <br>
 
+* [R online](http://www.r-fiddle.org/#/)
 * [Site oficial do R](https://www.r-project.org/)
 * [Lista de Pacotes do R](https://cran.r-project.org/web/packages/available_packages_by_name.html)
 * [Site oficial do RStudio](https://www.rstudio.com/)
