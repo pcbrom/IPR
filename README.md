@@ -51,4 +51,4 @@ Data   |   Nr. Aula   |   Conteúdo
 * Gabriel Castelo Branco -> [Visite meu Git!](https://github.com/gcbranco)
 * Leoncio Regal Dutra -> [Visite meu Git!](https://github.com/leoncioregal)
 * Luiz Fernando Viana -> [Visite meu Git!](https://github.com/lfcviana)
-* Milton Juliano da Silva Júnior -> [Visite meu Git!] (https://github.com/miltonjuliano)
+* Milton Juliano da Silva Júnior -> [Visite meu Git!](https://github.com/miltonjuliano)
