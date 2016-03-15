@@ -53,3 +53,4 @@ Data   |   Nr. Aula   |   Conteúdo
 * Luiz Fernando Viana -> [Visite meu Git!](https://github.com/lfcviana)
 * Milton Juliano da Silva Júnior -> [Visite meu Git!](https://github.com/miltonjuliano)
 * Antonio Rodrigues de Souza Júnior -> [visite meu Git!](https://github.com/antoniojr003)
+* Moroni Augusto Dourado Rabelo -> [Visite meu Git!](https://github.com/moroniaugusto)
