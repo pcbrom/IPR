@@ -1,6 +1,5 @@
 #milton
 r = 10
-pi = 3,14
 p = 2*(pi)*r
 a = (pi)*(r^2)
 resp=round(p,2)
