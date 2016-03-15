@@ -52,3 +52,4 @@ Data   |   Nr. Aula   |   Conteúdo
 * Leoncio Regal Dutra -> [Visite meu Git!](https://github.com/leoncioregal)
 * Luiz Fernando Viana -> [Visite meu Git!](https://github.com/lfcviana)
 * Milton Juliano da Silva Júnior -> [Visite meu Git!](https://github.com/miltonjuliano)
+* Felipe Eduardo Oliveira Dornelas -> [Visite meu Git!](https://github.com/felipedornelas22)
