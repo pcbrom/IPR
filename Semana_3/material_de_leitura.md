@@ -207,16 +207,16 @@ Exemplo:
 
 Seguem algumas funções do sistema que facilitam as operações:
 
-* rowSums = apply(x, 1, sum)
-* rowMeans = apply(x, 1, mean)
-* colSums = apply(x, 2, sum)
-* colMeans = apply(x, 2, mean)
+* rowSums = apply(x, 1, sum); Forma de uso: rowSums(objeto)
+* rowMeans = apply(x, 1, mean); Forma de uso: rowMeans(objeto)
+* colSums = apply(x, 2, sum); Forma de uso: colSums(objeto)
+* colMeans = apply(x, 2, mean); Forma de uso: colMeans(objeto)
 
-Aqui temos outra forma de operar o **pply**
+Aqui temos outra forma de operar o **apply**
 
 > x <- matrix(rnorm(200), 20, 10)<br>
 > apply(x, 1, quantile, probs = c(0.25, 0.75))<br>
->           > [,1]       [,2]       [,3]       [,4]       [,5]<br>
+>           [,1]       [,2]       [,3]       [,4]       [,5]<br>
 > 25% -0.7249996 -0.7936566 -0.2307457 -0.4990161 -0.6046746<br>
 > 75% -0.0126197  0.5120955  0.2966554  0.3801510  0.4670831<br>
 >           [,6]       [,7]       [,8]        [,9]      [,10]<br>
@@ -229,13 +229,13 @@ Aqui temos outra forma de operar o **pply**
 > 25% -0.3426580 -0.1792652 -0.3581542 -0.7515509 0.02499228<br>
 > 75%  0.4898111  0.9605446  0.9638863  0.9182874 0.38539324
 
-No comando **apply(x, 1, quantile, probs = c(0.25, 0.75))** adicionamos um novo argumento. Este argumento, probs, é nativo da função **quantile**, que por sua vez é aplicado às linhas, **1**, de **x**. Em outras palavras estamos criando funções compostas que o R pode operar.
+No comando **apply(x, 1, quantile, probs = c(0.25, 0.75))** adicionamos um novo argumento. Este argumento, probs, é nativo da função **quantile**, que por sua vez é aplicado às linhas (**1**) do objeto **x**. Em outras palavras estamos criando funções compostas que o R pode operar.
 
 **MAPPLY**
 
 O comando **mapply** é semelhante ao **apply** o prefixo **m** indica que serve para atividade multivariada.
 
-Suponhamos:
+Suponhamos a seguinte lista:
 
 > list(rep(1, 4), rep(2, 3), rep(3, 2), rep(4, 1))<br>
 > [[1]]<br>
@@ -258,11 +258,11 @@ Agora vamos utilizar esta lista e aplicar a soma de suas entradas.
 > mapply(sum, x)<br>
 > [1] 4 6 6 4
 
-Então o que diferencia **mapply** de **apply** é a capacidade de lidar com listas onde seus vetores podem ter tamanhos diferentes, enquanto o **apply** necessita de uma matriz.
+Então o que diferencia **mapply** de **apply** é a capacidade de lidar com listas onde seus vetores podem ter tamanhos diferentes, enquanto o **apply** necessita de um objeto retangular, como uma matriz.
 
 **TAPPLY**
 
-O comando **tapply** é adequado quando queremos efetuar uma operação em uma base de dados que está indexada por grupos de interesse.
+O comando **tapply** é adequado quando queremos efetuar uma operação em uma base de dados que será indexada por grupos de interesse. Inicialmente a base de dados não está indexada, mas podemos condicionar com facilidade.
 
 Exemplo:
 
@@ -278,7 +278,7 @@ Exemplo:
 > 3<br>
 > 0.1144464 0.5163468 1.2463678
 
-Note que **gl** está criando um vetor de fatores com níveis: 1, 3 e 3. Ao efetuar **tapply(x, f, mean)** estamos ajustando esta indexação para cada elemento do vetor **x** aos níveis do vetor **f** e depois pedimos a média de acordo com os níveis solicitados.
+Note que **gl** está criando um vetor de fatores com níveis: 1, 2 e 3. Ao efetuar **tapply(x, f, mean)** estamos ajustando esta indexação para cada elemento do vetor **x** aos níveis sugeridos pelo vetor **f**. Depois pedimos a média de acordo com os níveis indicados.
 
 **SPLIT**
 
@@ -302,7 +302,7 @@ Exemplo:
 >  [1] 0.577302 2.897775 1.251375 1.004082 1.558833 1.256193<br>
 >  [7] 1.267426 3.765642 0.654155 1.180660
 
-E pode ser trabalhado juntamente com **lapply**. **lapply** trabalha com listas de ualquer tamanho e forma. Segue a mesma linha de raciocínio dos comandos anteriores.
+E pode ser trabalhado juntamente com **lapply**. O **lapply** trabalha com listas de qualquer tamanho e forma então se torna versátil para operações de modo geral. O comando segue a mesma linha de raciocínio dos anteriores.
 
 > lapply(split(x, f), mean)<br>
 > $`1`<br>
