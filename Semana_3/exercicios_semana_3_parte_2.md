@@ -18,7 +18,7 @@ LISTA DE EXERCÍCIOS SEMANA_3 - PARTE 2 DE 2<br>
 * 02_ Ainda com a mesma base de dados, **'iris'**, do exercício anterior, qual o comando que retorna um vetor de médias referente as variáveis: **'Sepal.Length'**, **'Sepal.Width'**, **'Petal.Length'**, e **'Petal.Width'**?
 
 * 03_ Carregue a base de dados **'mtcars'** do R.
-  - Visualize o seu conteúdo no console e pelo comando View(...). 
+  - Visualize o seu conteúdo no console e depois pelo comando View(...). 
   - Verifique a descrição da base de dados.
   - Calcule a média de milhas por galão (mpg) pelo número de cilindros (cyl) do veículo.
 
