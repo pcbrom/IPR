@@ -205,7 +205,7 @@ Exemplo:
 > apply(x, 2, prod) # CALCULAMOS O PRODUTO DAS COLUNAS<br>
 > [1]  2 12 30 56
 
-Seguem algumas funções do sistemaa que facilitm as operações:
+Seguem algumas funções do sistema que facilitam as operações:
 
 * rowSums = apply(x, 1, sum)
 * rowMeans = apply(x, 1, mean)
@@ -229,13 +229,13 @@ Aqui temos outra forma de operar o **pply**
 > 25% -0.3426580 -0.1792652 -0.3581542 -0.7515509 0.02499228<br>
 > 75%  0.4898111  0.9605446  0.9638863  0.9182874 0.38539324
 
-No comando **apply(x, 1, quantile, probs = c(0.25, 0.75))** adicionamos um novo argumento. Este argumento, probs, é aplicado à função **quantile**, que por sua vez é aplicado às linhas, **1**, de **x**.
+No comando **apply(x, 1, quantile, probs = c(0.25, 0.75))** adicionamos um novo argumento. Este argumento, probs, é nativo da função **quantile**, que por sua vez é aplicado às linhas, **1**, de **x**. Em outras palavras estamos criando funções compostas que o R pode operar.
 
 **MAPPLY**
 
 O comando **mapply** é semelhante ao **apply** o prefixo **m** indica que serve para atividade multivariada.
 
-Exemplo:
+Suponhamos:
 
 > list(rep(1, 4), rep(2, 3), rep(3, 2), rep(4, 1))<br>
 > [[1]]<br>
@@ -250,7 +250,7 @@ Exemplo:
 > [[4]]<br>
 > [1] 4
 
-Este exemplo não requer muito esforço para ver o que ocorre. Portanto deixamos a interpretação por conta do leitor.
+Estas linhas não requerem muito esforço para ver o que ocorre. Portanto deixamos a interpretação por conta do leitor.
 
 Agora vamos utilizar esta lista e aplicar a soma de suas entradas.
 
@@ -316,7 +316,7 @@ E pode ser trabalhado juntamente com **lapply**. **lapply** trabalha com listas 
 
 Também é muito útil para fazer separação de datasets.
 
-> library(datasets)<br>
+> data(airquality)<br>
 > head(airquality)<br>
 >   Ozone Solar.R Wind Temp Month Day<br>
 > 1    41     190  7.4   67     5   1<br>
@@ -349,7 +349,7 @@ Também é muito útil para fazer separação de datasets.
 
 **AGGREGATE**
 
-O comando **aggregate** segue na mesma linha do **tapply** com a vantagem de usar a base de dados sem a necessidade de separar com o comando **split**.
+O comando **aggregate** segue na mesma linha do **tapply** com a vantagem de usar a base de dados sem a necessidade de separar em subsets com o comando **split**.
 
 Por exemplo:
 
