@@ -7,4 +7,23 @@ if(is.character(y)){
   }else {
       "É um algarismo"
     }
+
+#Luiz Fernando
+
+x=a
+
+if(x==0||x==1||x==2||x==3||x==4||x==5||x==6||x==7||x==8||x==9){
   
+  print("É um algorismo")
+  
+}else if(x=="a"||x=="A"||x=="e"||x=="E"||x=="i"||x=="I"||
+      x=="o"||x=="O"||x=="u"||x=="U"){
+     
+     print("É uma vogal")
+     
+   }else{
+     
+     print("É um caracter comum")
+
+   }
+
