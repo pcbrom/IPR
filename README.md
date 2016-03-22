@@ -54,3 +54,4 @@ Data   |   Nr. Aula   |   Conteúdo
 * Milton Juliano da Silva Júnior -> [Visite meu Git!](https://github.com/miltonjuliano)
 * Antonio Rodrigues de Souza Júnior -> [visite meu Git!](https://github.com/antoniojr003)
 * Moroni Augusto Dourado Rabelo -> [Visite meu Git!](https://github.com/moroniaugusto)
+* Jefferson Saraiva de Oliveira -> [Visite meu Git!](https://github.com/jeffersonsaraiva/)
