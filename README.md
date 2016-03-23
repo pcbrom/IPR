@@ -25,7 +25,7 @@ Repositorio do curso: Introdução à Programaçao com R<br>
   - Operações com vetores e matrizes;
 * Semana_7 [(material)](https://github.com/pcbrom/IPR/tree/master/Semana_7)
   - Registros de informações.<br><br>
-* **Repositório de avaliações** [(enviar avaliação)](https://github.com/pcbrom/IPR/blob/master/Avaliacoes/README.md)<br><br>
+* **Repositório de avaliações** [(enviar avaliação)](https://github.com/pcbrom/IPR/tree/master/Avaliacoes)<br><br>
 
 **Plano de atividades:**
 
