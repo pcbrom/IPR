@@ -12,7 +12,7 @@ REPOSITÓRIO DAS AVALIAÇÕES<br>
 Caro cursista,
 este é o espaço para enviar a resolução de sua avaliação.
 
-O nome do arquivo deve ter a seguinte máscara: **avaliacao_[0-7]_[numero de matrícula/SIAPE].R**
+O nome do arquivo deve ter a seguinte máscara: **avaliacao_[1-7]_[numero de matrícula/SIAPE].R**
 
 Abs.
 Pedro.
