@@ -55,3 +55,4 @@ Data   |   Nr. Aula   |   Conteúdo
 * Antonio Rodrigues de Souza Júnior -> [visite meu Git!](https://github.com/antoniojr003)
 * Moroni Augusto Dourado Rabelo -> [Visite meu Git!](https://github.com/moroniaugusto)
 * Jefferson Saraiva de Oliveira -> [Visite meu Git!](https://github.com/jeffersonsaraiva/)
+* Elaine Nascimento Aquino -> [Visite meu Git!](https://github.com/Elaineaquino)
