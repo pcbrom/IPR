@@ -39,7 +39,7 @@ Data   |   Nr. Aula   |   Conteúdo
 29/03/16	|11 e 12	|Avaliação 02 – Conteúdo: Aula do dia 01/03/16.
 05/04/16	|13 e 14	|Ponteiros e funções.
 12/04/16	|15 e 16	|Avaliação 03 – Conteúdo: Aulas dos dias 15 e 22/03/16.
-19/04/16	|17 e 18	|Sistema de arquivamento: Importação e exportação de dados. Leitura de Big Data.
+19/04/16	|17 e 18	|Sistema de arquivamento: Importação e exportação de dados. Leitura de Big Data (problemas, limitações e soluções compatíveis com R).
 26/04/16	|19 e 20	|Avaliação 04 – Conteúdo: Aula do dia 05/04/16.
 03/05/16	|21 e 22	|Operações com vetores e matrizes.
 10/05/16	|23 e 24	|Avaliação 05 – Conteúdo: Aula do dia 19/04/16 e 03/05/16.
