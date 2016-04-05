@@ -8,3 +8,25 @@ if(d==0) {
 } else {
   vp
 }
+
+#FERNANDO
+
+args(scan)
+
+p = 10
+t = 6
+
+if(t>10&&t<31){
+
+  p
+  
+  }else if(t<=10){
+  
+    p*0.8
+
+}else{
+
+  "Dia inexistente"
+
+}
+
