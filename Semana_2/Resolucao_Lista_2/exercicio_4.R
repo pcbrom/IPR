@@ -33,3 +33,50 @@ op.5=(B*qb)
 op.6=(db*qb)
 
 ifelse(qc<=3,op.1,op.2)+ifelse(qm<=4,op.3,op.4)+ifelse(qb<=5,op.5,op.6)
+
+#FERNANDO
+
+c=5 #cadeira
+m=5 #mesa
+b=10 #banco
+
+pc #preço da cadeira
+pm #preço da mesa
+pb #preço dos bancos
+
+vc #valor da cadeira
+vm #valor da mesa
+vb #valor do banco
+
+if(c>=4){
+  
+  vc=30*c
+  
+}else{
+  
+  vc=50*c
+    
+}
+
+if(m>=5){
+  
+  vm=120*m
+  
+}else{
+  
+  vm=150*m
+  
+}
+
+if(b>=6){
+  
+  vb=8*b
+  
+}else{
+  
+  vb=10*b
+  
+}
+
+valor=(vc+vm+vb)
+
