@@ -11,4 +11,5 @@ LISTA DE EXERCÍCIOS SEMANA_4<br>
 <br>
 
 * 01_ Refaça as listas de exercícios anteriores criando uma função para executa-las.
-* 02_ Seja a página: http://www.atletx.com.br/vida-de-atleta/treinamento/tabela-gasto-calorico-por-atividade Crie duas tabelas, "Atividades Físicas" e "Atividades Cotidianas", ambas com as seguintes variáveis: "tipo_de_atividade" e "gasto_calorico_30_minutos".
+* 02_ Seja a página: http://www.atletx.com.br/vida-de-atleta/treinamento/tabela-gasto-calorico-por-atividade
+    * Crie duas tabelas, "Atividades Físicas" e "Atividades Cotidianas", ambas com as seguintes variáveis: "tipo_de_atividade" e "gasto_calorico_30_minutos".
