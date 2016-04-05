@@ -8,7 +8,7 @@ if(is.character(y)){
       "É um algarismo"
     }
 
-#Luiz Fernando
+#FERNANDO
 
 x=a
 
