@@ -49,7 +49,7 @@ if (qtlap + qtipad >= 3) {
         } else {
           
             print("distancia nao valida")
-            break
+            stop
           
         }
       
@@ -76,14 +76,14 @@ if (qtlap + qtipad >= 3) {
         } else {
           
           print("dia nao valido")
-          break
+          stop
   
         }
         
     } else {
       
       print("quantidade nao valida")
-      break
+      stop
       
     }
     
@@ -113,7 +113,7 @@ if (qtlap + qtipad >= 3) {
       } else {
         
         print("distancia nao valida")
-        break
+        stop
         
       }
       
@@ -140,21 +140,21 @@ if (qtlap + qtipad >= 3) {
       } else {
         
         print("distancia nao valida")
-        break
+        stop
         
       }
       
     } else {
       
       print("dia nao valido")
-      break
+      stop
       
     }
     
   } else {
     
     print("distancia nao valida")
-    break
+    stop
     
   }
     
@@ -186,7 +186,7 @@ if (qtlap + qtipad >= 3) {
       } else {
         
         print("distancia nao valida")
-        break
+        stop
         
       }
       
@@ -214,14 +214,14 @@ if (qtlap + qtipad >= 3) {
       } else {
         
         print("distancia nao valida")
-        break
+        stop
         
       }
       
     } else {
       
       print("dia nao valido")
-      break
+      stop
       
     }
     
@@ -251,7 +251,7 @@ if (qtlap + qtipad >= 3) {
       } else {
         
         print("distancia nao valida")
-        break
+        stop
         
       }
       
@@ -279,27 +279,27 @@ if (qtlap + qtipad >= 3) {
       } else {
         
         print("distancia nao valida")
-        break
+        stop
         
       }
       
     } else {
       
       print("dia nao valido")
-      break
+      stop
       
     }
     
   } else {
     
     print("quantidade nao valida")
-    break
+    stop
     
   }
   
 } else {
   
   print("quantidade nao valida")
-  break
+  stop
   
 }
