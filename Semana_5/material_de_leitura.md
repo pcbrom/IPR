@@ -107,7 +107,7 @@ www.github.com/pcbrom/IPR/blob/master/Semana_5/html_xml_parse.R
 Pacote recomendado: **jsonlite** e para detalhes de uso recomendo o material explicativo: www.dropbox.com/s/71wj0zpof18gqen/01_08_readingJSON.pdf?dl=1
 
 Trabalharemos com o arquivo de restaurantes e sua geolocalização.
-www.github.com/pcbrom/IPR/tree/master/Semana_5
+www.github.com/pcbrom/IPR/blob/master/Semana_5/json_reading.R
 
 **Google Docs**
 
