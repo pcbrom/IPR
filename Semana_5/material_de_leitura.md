@@ -17,7 +17,7 @@ Leitura e escrita de sistema de arquivamento consiste em importação de dados b
 
 **Obtendo bases de dados**
 
-Bases de dados podem ser raspadas diretamente da internet, conforme vimos na aula anterior, ou podemos verificar a sua disponibilidade. Por exemplo, se queremos dados sobre o portal tranparência, basta procurar diretamente em transparencia.gov.br/ Dados do censo: ces.ibge.gov.br/base-de-dados/metadados/ibge/censo-demografico.html ou qualquer outra base que seja de interesse, inclusive diretamente do Google Docs e Dropbox.
+Bases de dados podem ser raspadas diretamente da internet, conforme vimos na aula anterior, ou podemos verificar a sua disponibilidade. Por exemplo, se queremos dados sobre o portal tranparência, basta procurar diretamente em www.transparencia.gov.br/ Dados do censo: www.ces.ibge.gov.br/base-de-dados/metadados/ibge/censo-demografico.html ou qualquer outra base que seja de interesse, inclusive diretamente do Google Docs e Dropbox.
 
 O grande ponto não é apenas aonde e como obter as bases de dados e sim como efetuar a leitura.
 
