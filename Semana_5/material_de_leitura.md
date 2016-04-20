@@ -21,13 +21,13 @@ Bases de dados podem ser raspadas diretamente da internet, conforme vimos na aul
 
 O grande ponto não é apenas aonde e como obter as bases de dados e sim como efetuar a leitura.
 
-No caso do R o acesso e leitura é feito diretamente na memória ram do computador. Isso emplica em um problema que pode ocorrer. A base de dados não cabe na memória e precisará de uso de paginação no caso de Windows ou Swap em sistemas de núcleo Unix.
+No caso do R o acesso e a leitura são feitos diretamente na memória virtual do computador. Isso emplica em um problema que pode ocorrer: A base de dados não cabe na memória e precisará usar paginação (Windows) ou Swap (sistemas de núcleo Unix). Para efetuar alterações no sistema de paginação leia: www.windows.microsoft.com/pt-br/windows/change-virtual-memory-size#1TC=windows-7
 
 Vejamos alguns comandos mais simples:
 
 **Definindo a pasta de trabalho**
 > getwd() # Verifica a pasta de trabalho atual<br>
-> setwd(...) # Define a pasta de trabalho.
+> setwd("LOCAL") # Define a pasta de trabalho.
 
 **Baixando uma base de dados**
 Vamos trabalhar com a base de dados dos Servidores Federais - Militares, obtidos diretamente do Portal da Transparência:
@@ -35,9 +35,10 @@ https://www.dropbox.com/s/tiwa53zcifv48qm/20150930_ObservacoesMilitares.csv?dl=1
 
 **Localizando o arquivo**
 > file.choose() # faz a busca do arquivo.
+> local = file.choose() # faz a busca do arquivo e coloca o endereço no objeto "local".
 
 **Lendo a prévia do arquivo**
-> readLines(..) # Efetua a leitura prévia de algumas linhas da base de dados para que seja avaliado o tipo de separador, se há rótulos de variáveis e outros atributos.
+> readLines(local) # Efetua a leitura prévia de algumas linhas da base de dados para que seja avaliado o tipo de separador, se há rótulos de variáveis, separadores, tipo de decimal entre outros atributos.
 
 **Comando read.csv()**
 > args(read.csv) <br>
@@ -49,13 +50,17 @@ Aqui temos alguns argumentos:
 * sep -> Forma que as entradas estão separadas, no caso é por vírgula
 * dec -> Formato do sistema de numeração do arquivo para que seja considerado decimal ao caregar os dados
 
+Note que o arquivo está com o separador "\t", ou seja separados por tabulação. Neste caso devemos tar o cuidado de ao ler o arquivo, usar o argumento **sep = "\t"**.
+
 Argumentos adicionais:
 * skip -> Indica quantas linhas deseja pular antes de iniciar o carregamento.
 * skipNul -> Se TRUE indica que deve pular lihnas em branco.
 
 Outros tipos de read nativos podem ser vistos com **read.** onde o RStudio abrirá uma lista de formatos, cada um com uma especificação.
 
-Agora faça o teste de carregamento da base de dados baixada e peçam o seu View(...)
+Agora faça o teste de carregamento da base de dados baixada e peça o seu View(...)
+> dados = read.csv(loc, sep = "\t")<br>
+> View(dados)
 
 **Escrita**
 
@@ -70,13 +75,20 @@ Podemos praticar o pacote **xlsx**
 > args(read.xlsx)<br>
 > function (file, sheetIndex, sheetName = NULL, rowIndex = NULL, startRow = NULL, endRow = NULL, colIndex = NULL, as.data.frame = TRUE, header = TRUE, colClasses = NA, keepFormulas = FALSE, encoding = "unknown", ...) 
 
+Aqui temos alguns argumentos:
+* file -> Indica o endereço do arquivo obtido com file.choose()
+* sheetIndex -> Indica a pasta interna que desejamos acessar, para a primeira pasta colocamos **1** e assim por diante.
+* startRow -> Informa a linha que sedejamos iniciar a leitura. (usar somente se necessário)
+* endRow -> Informa a linha que sedejamos terminar a leitura. (usar somente se necessário)
+* colIndex -> Informa qual ou quais colunas desejamos. (usar somente se necessário)
+
 Façam um teste para: https://www.dropbox.com/s/p6va0lxu9w9izmu/Aval1.xlsx?dl=1
 
-**SPSS, Stata e SAS**
+**SPSS, Stata e SAS (apenas informativo)**
 
 Utilize o pacote **haven**
 
-**SAS**
+**SAS (apenas informativo)**
 
 Outras alternativas para sistema de arquivamento SAS são:
 * sas7bdat -> SAS Database Reader (experimental)
@@ -85,11 +97,17 @@ Outras alternativas para sistema de arquivamento SAS são:
 
 **XML**
 
-Pacote recomendado: **xml** e para detalhes de uso recomendo o material explicativo: https://www.dropbox.com/s/dgjheh0f1mhm820/01_07_readingXML.pdf?dl=1
+Pacote recomendado: **xml** e para detalhes de uso recomendo o material explicativo: www.dropbox.com/s/dgjheh0f1mhm820/01_07_readingXML.pdf?dl=1
+
+Vamos utilizar o mesmo procedimento de raspagem da Semana 4, mas utilizando o XML como ferramenta
+www.github.com/pcbrom/IPR/blob/master/Semana_5/html_xml_parse.R
 
 **JSON - Javascrip Object Notation**
 
-Pacote recomendado: **jsonlite** e para detalhes de uso recomendo o material explicativo: https://www.dropbox.com/s/71wj0zpof18gqen/01_08_readingJSON.pdf?dl=1
+Pacote recomendado: **jsonlite** e para detalhes de uso recomendo o material explicativo: www.dropbox.com/s/71wj0zpof18gqen/01_08_readingJSON.pdf?dl=1
+
+Trabalharemos com o arquivo de restaurantes e sua geolocalização.
+www.github.com/pcbrom/IPR/tree/master/Semana_5
 
 **Google Docs**
 
