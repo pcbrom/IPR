@@ -2,13 +2,12 @@ getwd()
 setwd()
 
 # instalar o rdrop2
-install.packages("rdrop2", dependencies = T)
+install.packages(c("rdrop2", "dplyr"), dependencies = T)
 
-# carregar o pacote
-require(rdrop2)
+# carregar os pacotes
+require(rdrop2); require(dplyr)
 
 # Retrieve Dropbox account information
-require(dplyr)
 drop_acc() %>% select(uid, display_name, email_verified, quota_info.quota)
 
 # Dropbox directory listing
@@ -28,13 +27,10 @@ drop_create('public/drop_test')
 
 
 # Upload a file into Dropbox
-
 # csv files
 write.csv(mtcars, 'mtcars.csv')
-
-# or upload to a specific folder
+# upload to a specific folder
 drop_upload('mtcars.csv', dest = "drop_test")
-
 
 # Download a file
 drop_get('mtcars.csv')
