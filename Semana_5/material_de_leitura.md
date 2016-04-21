@@ -127,22 +127,24 @@ Mas como se obtém este link?
 
 **Dropbox**
 
-Podemos utilizar o pacote **repmis** e o comando:
-> source_DropboxData("NOME_BD.csv", key = "CHAVE_DROPBOX")
-
-Ou podemos fazer diretamente pela url. Todo endereço Dropbox tem o final **0** ou **1**. Se **0** então abrirá indiretamente e ocorre o erro no sistema. Portanto a solução é alterar para **1** e o download ocorrerá diretamente.
+Podemos fazer o download diretamente pela url. Todo endereço Dropbox tem o final **0** ou **1**. Se **0** então abrirá indiretamente e ocorre o erro no sistema. Portanto a solução é alterar para **1** e o download ocorrerá diretamente.
 
 Por exemplo:
 > https://www.dropbox.com/s/tiwa53zcifv48qm/20150930_ObservacoesMilitares.csv?dl=0 # final zero<br>
 > https://www.dropbox.com/s/tiwa53zcifv48qm/20150930_ObservacoesMilitares.csv?dl=1 # final um
 
-Logo usamos RCurl:
-> require(RCurl)<br>
+E baixamos com:
 > fileUrl = "https://www.dropbox.com/s/tiwa53zcifv48qm/20150930_ObservacoesMilitares.csv?dl=1"<br>
-> fileCSV = getURL(fileUrl, .opts = list(ssl.verifypeer = FALSE))<br>
-> dados = read.csv(textConnection(fileCSV), header = T, encoding = "UTF-8")
+> download.file(fileUrl, "20150930_ObservacoesMilitares.csv")
 
-Em geral, qualquer serviço de arquivamento em nuvem, se há a opção de download direto então podemos ler o arquivo pela url.
+Em geral, qualquer serviço de arquivamento em nuvem, se há a opção de download direto então podemos ler o arquivo pela url com o pacote adequado ou efetuar o download diretamente pelo terminal.
+
+Outra forma é utilizar o **read.csv(...)** e o comando:
+> URL = "https://www.dropbox.com/s/tiwa53zcifv48qm/20150930_ObservacoesMilitares.csv?dl=1"<br>
+> read.csv(URL, sep = "\t")
+
+Ou podemos explorar o Dropbox usando o terminal do R:
+www.github.com/pcbrom/IPR/blob/master/Semana_5/dropbox.R
 
 **Leitura e escrita em alto desempenho**
 
@@ -158,7 +160,7 @@ Para invocar um arquivo **.feather** utilize **read_feather**.
 
 Se a base de dados for convencional, em csv temos o pacote **data.table** que também serve para bases de dados mais pesadas.
 
-O **data.table** é exteenso em suas funcionalidades portanto recomendo a leitura do material adicional: https://www.dropbox.com/s/bzxd4nc0jp2cc37/01_09_dataTable.pdf?dl=1
+O **data.table** é exteenso em suas funcionalidades portanto recomendo a leitura do material adicional: www.dropbox.com/s/bzxd4nc0jp2cc37/01_09_dataTable.pdf?dl=1
 
 **Grandes bases de dados**
 
