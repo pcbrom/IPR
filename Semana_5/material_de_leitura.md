@@ -14,7 +14,6 @@ MATERIAL DE LEITURA - SEMANA_5<br>
 
 Leitura e escrita de sistema de arquivamento consiste em importação de dados brutos e exportação de dados tratados "tidy data". Atualmente temos funções nativas do R que fazem a importação e exportação de diversos formatos de modo fácil. Em geral é útil para análise exploratória de dados, produção de relatórios e pesquisa passível de reprodução.
 
-
 **Obtendo bases de dados**
 
 Bases de dados podem ser raspadas diretamente da internet, conforme vimos na aula anterior, ou podemos verificar a sua disponibilidade. Por exemplo, se queremos dados sobre o portal tranparência, basta procurar diretamente em www.transparencia.gov.br/ Dados do censo: www.ces.ibge.gov.br/base-de-dados/metadados/ibge/censo-demografico.html ou qualquer outra base que seja de interesse, inclusive diretamente do Google Docs e Dropbox.
@@ -143,7 +142,7 @@ Outra forma é utilizar o **read.csv(...)** e o comando:
 > URL = "https://www.dropbox.com/s/tiwa53zcifv48qm/20150930_ObservacoesMilitares.csv?dl=1"<br>
 > read.csv(URL, sep = "\t")
 
-Ou podemos explorar o Dropbox usando o terminal do R:
+Ou podemos explorar o Dropbox usando o terminal do R:<br>
 www.github.com/pcbrom/IPR/blob/master/Semana_5/dropbox.R
 
 **Leitura e escrita em alto desempenho**
@@ -160,7 +159,7 @@ Para invocar um arquivo **.feather** utilize **read_feather**.
 
 Se a base de dados for convencional, em csv temos o pacote **data.table** que também serve para bases de dados mais pesadas.
 
-O **data.table** é exteenso em suas funcionalidades portanto recomendo a leitura do material adicional: www.dropbox.com/s/bzxd4nc0jp2cc37/01_09_dataTable.pdf?dl=1
+O **data.table** é extenso em suas funcionalidades portanto recomendo a leitura do material adicional: www.dropbox.com/s/bzxd4nc0jp2cc37/01_09_dataTable.pdf?dl=1
 
 **Grandes bases de dados**
 
