@@ -161,6 +161,9 @@ Se a base de dados for convencional, em csv temos o pacote **data.table** que ta
 
 O **data.table** é extenso em suas funcionalidades portanto recomendo a leitura do material adicional: www.dropbox.com/s/bzxd4nc0jp2cc37/01_09_dataTable.pdf?dl=1
 
+O ponto mais marcante do **data.table** é a velocidade de operações. Vejamos o exemplo:<br>
+www.github.com/pcbrom/IPR/blob/master/Semana_5/data_table.R
+
 **Grandes bases de dados**
 
 Soluções mais utilizadas:
