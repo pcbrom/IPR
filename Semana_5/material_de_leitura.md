@@ -210,4 +210,3 @@ E os formatos trabalhados foram:
     * Prof. PhD. Roger Peng;
     * Prof. PhD. Jeff Leek;
     * Prof. PhD. Brian Caffo.
-* Uso de Ponteiros, Wikipedia (abordagem informal)
