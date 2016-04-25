@@ -96,14 +96,14 @@ Outras alternativas para sistema de arquivamento SAS são:
 
 **XML**
 
-Pacote recomendado: **xml** e para detalhes de uso recomendo o material explicativo: www.dropbox.com/s/dgjheh0f1mhm820/01_07_readingXML.pdf?dl=1
+Pacote: **xml** e para detalhes de uso recomendo o material explicativo: www.dropbox.com/s/dgjheh0f1mhm820/01_07_readingXML.pdf?dl=1
 
 Vamos utilizar o mesmo procedimento de raspagem da Semana 4, mas utilizando o XML como ferramenta
 www.github.com/pcbrom/IPR/blob/master/Semana_5/html_xml_parse.R
 
 **JSON - Javascrip Object Notation**
 
-Pacote recomendado: **jsonlite** e para detalhes de uso recomendo o material explicativo: www.dropbox.com/s/71wj0zpof18gqen/01_08_readingJSON.pdf?dl=1
+Pacote: **jsonlite** e para detalhes de uso recomendo o material explicativo: www.dropbox.com/s/71wj0zpof18gqen/01_08_readingJSON.pdf?dl=1
 
 Trabalharemos com o arquivo de restaurantes e sua geolocalização.
 www.github.com/pcbrom/IPR/blob/master/Semana_5/json_reading.R
