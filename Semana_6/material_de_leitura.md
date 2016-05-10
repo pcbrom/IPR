@@ -176,6 +176,8 @@ www.github.com/pcbrom/IPR/blob/master/Semana_6/MRLS.R
     * Prof. PhD. Roger Peng;
     * Prof. PhD. Jeff Leek;
     * Prof. PhD. Brian Caffo.
+* Análise de Regressão, Universidade de Brasília.
+    * Profa. Maria Teresa Leão Costa.
 * Operações com vetores.
     * www.im.ufrj.br/dmm/projeto/projetoc/precalculo/sala/conteudo/capitulos/cap91s4.html
 * Wikipedia - Produto Vetorial.
