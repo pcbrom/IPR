@@ -137,18 +137,16 @@ Usamos o comando **solve** veja mais detalhes em **?solve**
 > [2,]   36   81  126<br>
 > [3,]   42   96  150<br>
 > pow = function(X, n) {<br>
->    i = 1<br>
->    while(i < n) {<br>
->      X = X%*%X<br>
->      i = i + 1  <br>
->    }<br>
->    return(X)<br>
->  }<br>
-> pow(D, 2)<br>
->      [,1] [,2] [,3]<br>
-> [1,]   30   66  102<br>
-> [2,]   36   81  126<br>
-> [3,]   42   96  150
+>   i = 1<br>
+>   Y = X<br>
+>   while(i < n) {<br>
+>     W = X%*%Y<br>
+>     X = W<br>
+>     i = i + 1<br>  
+>   }<br>
+>   return(X)<br>
+> }<br>
+> pow(D, 2)
 
 O comando solve também serve para resolver sistemas lineares, por exemplo:
 > print(D2)<br>
