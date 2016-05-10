@@ -161,7 +161,7 @@ O comando solve também serve para resolver sistemas lineares, por exemplo:
 > print(solucao)<br>
 > [1] -0.3055556  0.4444444 -0.1388889
 
-**Vejamos uma aplicação de cálculo matricial**
+**Para terminar uma aplicação de cálculo matricial**
 
 www.github.com/pcbrom/IPR/blob/master/Semana_6/MRLS.R
 
