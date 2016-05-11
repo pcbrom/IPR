@@ -131,7 +131,7 @@ Usamos o comando **solve** veja mais detalhes em **?solve**
 **Potencia de matrizes**
 
 > D = matrix(data = 1:9, nrow = 3, ncol = 3)<br>
-> D%*****%D<br>
+> D%****%D<br>
 >      [,1] [,2] [,3]<br>
 > [1,]   30   66  102<br>
 > [2,]   36   81  126<br>
@@ -140,7 +140,7 @@ Usamos o comando **solve** veja mais detalhes em **?solve**
 >   i = 1<br>
 >   Y = X<br>
 >   while(i < n) {<br>
->     W = X%*****%Y<br>
+>     W = X%****%Y<br>
 >     X = W<br>
 >     i = i + 1<br>  
 >   }<br>
