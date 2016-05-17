@@ -78,7 +78,7 @@ estatisticas <- function(completo){
   
   sulfato = c(mean(completo$sulfate, na.rm = T), median(completo$sulfate, na.rm = T), var(completo$sulfate, na.rm = T), getmode(completo$sulfate))
   nitrato = c(mean(completo$nitrate, na.rm = T), median(completo$nitrate, na.rm = T), var(completo$nitrate, na.rm = T), getmode(completo$nitrate))
-  tabela <- matrix(c(c("M�dia", "Mediana", "Vari�ncia", "Moda"), sulfato, nitrato), 4, 3, byrow = FALSE)
+  tabela <- matrix(c(c("Média", "Mediana", "Variância", "Moda"), sulfato, nitrato), 4, 3, byrow = FALSE)
   colnames(tabela) <- c("Item", "Sulfate", "Nitrate")
 
   return(tabela)
@@ -104,7 +104,7 @@ write.table(dados.finais, file ="estatisticas.txt", sep = "\t", dec = "," , row.
 # 1. Seu programa a ser enviado para:
 #     github.com/pcbrom/IPR/tree/master/Avaliacoes
 #   E deve ser salvo com a seguinte mascara:
-#     avaliacao_[0-7]_[numero de matrícula/SIAPE].R
+#     avaliacao_[0-7]_[numero de matrÃ­cula/SIAPE].R
 
 # ======================================================================
 
