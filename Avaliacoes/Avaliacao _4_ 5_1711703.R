@@ -42,7 +42,7 @@ nitrateMe = median(comp[,3],na.rm=T)
 sulfateV = var(comp[,2], y=NULL, na.rm = T)
 nitrateV = var(comp[,3], y=NULL, na.rm = T)
 
-título=(cbind("Estatistica","Sulfate","Nitrate"))
+tÃ­tulo=(cbind("Estatistica","Sulfate","Nitrate"))
 Mean = as.matrix(cbind("Mean",Sulfate,Nitrate))
 Mode = as.matrix(cbind("Mode",sulfateMo,nitrateMo))
 Median = as.matrix(cbind("Median",sulfateMe,nitrateMe))
@@ -53,7 +53,7 @@ Mode = gsub(".",",", Mode)
 Median = gsub(".",",", Median)
 Variance = gsub(".",",", Variance)
 
-Estatistica = as.data.frame(rbind("título"=título,"Mean" = Mean, "Mode" = Mode, "Median" = Median, "Variance" = Variance))
+Estatistica = as.data.frame(rbind("tÃ­tulo"=tÃ­tulo,"Mean" = Mean, "Mode" = Mode, "Median" = Median, "Variance" = Variance))
 View(Estatistica)
 
 
