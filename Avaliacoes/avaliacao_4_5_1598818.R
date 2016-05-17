@@ -37,7 +37,7 @@
 # 1. Seu programa a ser enviado para:
 #     github.com/pcbrom/IPR/tree/master/Avaliacoes
 #   E deve ser salvo com a seguinte mascara:
-#     avaliacao_[0-7]_[numero de matr√≠cula/SIAPE].R
+#     avaliacao_[0-7]_[numero de matr√É¬≠cula/SIAPE].R
 
 # ======================================================================
 
@@ -45,7 +45,7 @@
 
 # ======================================================================
 
-rm(list=ls(all=T)) # Limpa a ·rea de trabalho.
+rm(list=ls(all=T)) # Limpa a √°rea de trabalho.
 
 # Criando a pasta.
 pasta <- "F:\\dados_avaliacao_04_05" # Define o caminho que se pretende criar.
@@ -58,8 +58,8 @@ URL <- "https://www.dropbox.com/s/irdf8oxjv30cbwy/specdata.zip?dl=1" # Direciona
 arquivo <- "specdata.zip"
 download.file(URL, arquivo) # Baixando o arquivo, com o nome desejado.
 
-# Verificando as informaÁıes de sistema.
-dir(pasta) # Verificando quais arquivos existem no diretÛrio "pasta"
+# Verificando as informa√ß√µes de sistema.
+dir(pasta) # Verificando quais arquivos existem no diret√≥rio "pasta"
 file.exists(arquivo) # Verificando se o "arquivo" existe.
 
 # Descompactando
@@ -69,40 +69,40 @@ unzip("specdata.zip") # Descompactando dentro da "pasta".
 # Navegando na pasta descompactada.
 pasta.1 <- "F:\\dados_avaliacao_04_05\\specdata" # Define o caminho que se pretende criar.
 setwd(pasta.1) # Define o caminho para manusear a pasta.1.
-nome.arquivos <- dir(pasta.1) # AtribuÌndo ao vetor "nome.arquivos" todos os arquivos existentes na pasta.
+nome.arquivos <- dir(pasta.1) # Atribu√≠ndo ao vetor "nome.arquivos" todos os arquivos existentes na pasta.
 length(nome.arquivos) # Verifica a quantidade de arquivos na pasta, separados pelos nomes.
 
-# Criando um objeto ˙nico.
+# Criando um objeto √∫nico.
 dados.completos <- NULL # Criando dados.completos.
 csv <- NULL # Criando um auxiliar.
-for (i in 1:length(nome.arquivos)){ # FunÁ„o para escrever todos os arquivos em um ˙nico.
+for (i in 1:length(nome.arquivos)){ # Fun√ß√£o para escrever todos os arquivos em um √∫nico.
 csv <- read.csv(nome.arquivos[i], sep=",", encoding="UTF8")
 dados.completos <- rbind(dados.completos, csv)
 }
 
-# C·lculos estatÌsticos.
-estatisticas <- function(sulfate, nitrate){# c·lculos estatÌsticos.
+# C√°lculos estat√≠sticos.
+estatisticas <- function(sulfate, nitrate){# c√°lculos estat√≠sticos.
 
-	## funÁıes:
-		moda<-function(x){ # funÁ„o para moda.
+	## fun√ß√µes:
+		moda<-function(x){ # fun√ß√£o para moda.
 			dados=na.omit(x)	# para omitir os NA.
 			uniqv <- unique(dados) # remover os duplicados.
 			uniqv[which.max(tabulate(match(dados, uniqv)))]
 		}
 
-		varianca<-function(x){ # funÁ„o para varianÁa.
+		varianca<-function(x){ # fun√ß√£o para varian√ßa.
 			media=mean(x, na.rm=TRUE)
 			dados=na.omit(x)	# para omitir os NA.
 			disvquad=(dados-media)^2
 			calculo=sum(disvquad)/(length(dados)-1)
 			return(calculo)
 		}
-	## fim das funÁıes.
+	## fim das fun√ß√µes.
 
-	medias <- c(mean(sulfate, na.rm=TRUE), mean(nitrate, na.rm=TRUE))# determinaÁ„o das mÈdias
-	modas <- c(moda(sulfate), moda(nitrate)) # determinaÁ„o das modas
-	medianas <- c(median(sulfate, na.rm=TRUE), median(nitrate, na.rm=TRUE)) # determinaÁ„o das medianas
-	variancas <- c(varianca(sulfate), varianca(nitrate)) # determinaÁ„o das varianÁas
+	medias <- c(mean(sulfate, na.rm=TRUE), mean(nitrate, na.rm=TRUE))# determina√ß√£o das m√©dias
+	modas <- c(moda(sulfate), moda(nitrate)) # determina√ß√£o das modas
+	medianas <- c(median(sulfate, na.rm=TRUE), median(nitrate, na.rm=TRUE)) # determina√ß√£o das medianas
+	variancas <- c(varianca(sulfate), varianca(nitrate)) # determina√ß√£o das varian√ßas
 
 	tabela <- matrix(c(c("sulfate", "nitrate"), medias, modas, medianas, variancas), 5, 2, byrow = TRUE)
 
