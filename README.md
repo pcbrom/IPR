@@ -46,7 +46,7 @@ Data   |   Nr. Aula   |   Conteúdo
 10/05/16	|23 e 24	|Operações com vetores e matrizes.
 17/05/16	|25 e 26	|Avaliação 05 – Conteúdo: Aula do dia 19/04/16 e 26/04/16.
 24/05/16	|27 e 28	|Registros de informações.
-14/06/16	|30 e 31	|Avaliação 06 E 07 – Apresentação do trabalho final de curso.
+14/06/16	|39 e 30	|Avaliação 06 E 07 – Apresentação do trabalho final de curso.
 
 <br><br>**Turma de 2016.1:**
 * Gabriel Castelo Branco -> [Visite meu Git!](https://github.com/gcbranco)
