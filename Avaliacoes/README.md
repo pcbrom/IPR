@@ -26,4 +26,4 @@ os que não tiveram o upload de sua avaliação neste repositório devem me proc
 
 .....................................................................
 
-[**DOWNLOAD DAS NOTAS E RESULTADO PARCIAL (Atualização: 23/05/16)**](https://docs.google.com/a/etfbsb.edu.br/spreadsheets/d/1Uf7MHZ5PODfRrhbJsL_kwRgm2TWMv570uGeR7PGyILk/edit?usp=sharing)
+[**DOWNLOAD DAS NOTAS E RESULTADO PARCIAL (Atualização: 16/06/16)**](https://docs.google.com/a/etfbsb.edu.br/spreadsheets/d/1Uf7MHZ5PODfRrhbJsL_kwRgm2TWMv570uGeR7PGyILk/edit?usp=sharing)
