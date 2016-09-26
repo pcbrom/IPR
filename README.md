@@ -26,7 +26,8 @@ Repositorio do curso: Introdução à Programaçao com R<br>
 * Semana_7 [(material)](https://github.com/pcbrom/IPR/tree/master/Semana_7)
   - Registros de informações.<br><br>
 * **Repositório de avaliações e notas** [(enviar avaliação)](https://github.com/pcbrom/IPR/tree/master/Avaliacoes)
-* [**Dicas para programar em R**] (https://github.com/pcbrom/IPR/blob/master/R%20Cheat%20Sheet.pdf)<br><br>
+* [**Dicas para programar em R**] (https://github.com/pcbrom/IPR/blob/master/R%20Cheat%20Sheet.pdf)
+* [**Download R e RStudio Portable**] (https://www.dropbox.com/s/9qpjq3i0htdosgz/RStudioPortable.zip?dl=1)<br><br>
 
 **Plano de atividades:**
 
